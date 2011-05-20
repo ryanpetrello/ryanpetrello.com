@@ -1,0 +1,245 @@
+html  {
+    margin:0;
+    padding:0;
+    }
+body  {
+    margin:0;
+    padding:0;
+    border-top:10px solid #EEE;
+    font-family:georgia;
+    overflow-x:hidden;
+    }
+a  {
+    color:#CCAA33;
+    }
+h1, h3, h4  {
+    margin-bottom:.5em;
+    font-size:3.2em;
+    text-transform: uppercase;
+    line-height:.85em;
+    font-weight:normal;
+    vertical-align:baseline;
+    }
+h2.subpage  {
+    color:#FFDD66;
+    }
+h3  {
+    text-transform:none;
+    font-size:2.0em;
+    color:#111;
+    background:url('../img/ornament.png') no-repeat;
+    padding-left:30px;
+    margin:0;
+    }
+h4   {
+    font-size:0.85em;
+    letter-spacing:.35em;
+    }
+p, li, span, fieldset, dt {
+    font-family:helvetica, sans-serif;
+    font-size:0.85em;
+    line-height:1.45em;
+    }
+label  {
+	font-weight:bold;
+	}
+li  {
+    list-style-type:none;
+    }
+#mast li  {
+    list-style-image: url('../img/diamond.gif');
+    }
+#emailForm dl  {
+	position:relative;
+	margin:0 0 1.0em 0;
+	overflow:hidden;
+	}
+#emailForm dt  {
+	clear:both;
+	float:left;
+	width:5em;
+	padding:0.15em 1em;
+	text-align:left;
+	}
+#emailForm dd  {
+	float:left;
+	width:8em;
+	padding: 0.15em 0;
+	}
+div.portImage  {
+    margin-bottom:15px;
+    font-family:georgia, serif;
+    border:1px solid #EEE;
+    padding:3px;
+    list-style-type:none;
+    width:418px;
+    overflow:hidden;
+    }
+div.fullImage  {
+    width:750px;
+    }
+.exception  {
+	color:#FF0000;
+	font-weight:bold;
+	}
+.success  {
+	color:#009900;
+	}
+fieldset  {
+    border:0;
+    }
+#menu  {
+    padding:35px 0 10px 3em !important;
+    padding-bottom: 35px;
+    overflow:hidden;
+    background:#FFF;
+    }
+#menu ul  {
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    }
+#menu li  {
+    font-weight:bold;
+    margin:0 5px;
+    padding:5px 5px;
+    list-style-type:none;
+    list-style-image:none;
+    float:left;
+    }
+#menu a  {
+    color:#000;
+    }
+#menu li.current  {
+    color:#FFF;
+    background:#111 !important;
+    }
+#menu li:hover  {
+    background:#EEE;
+    }
+#mast a  {
+    color:#FFDD66;
+    }
+#mast a:hover  {
+    color:#FFEE88;
+}
+#mast , #minimast   {
+    clear:left;
+    color:#FFF;
+    width:100%;
+    height:24em;
+    *height:22em;
+    background:#111;
+    margin:0 auto;
+    text-align:center;
+    overflow:hidden;
+    border-bottom:10px solid #EEE;
+    }
+#minimast  {
+    height:14em !important;
+    *height:12em;
+    text-align:left;
+    padding-left:3em;
+    width:auto;
+    padding-top:inherit !important;
+    padding-top:2em;
+    }
+#mast p:first-letter {
+    background:#333;
+    color: #FFF;
+    display: inline;
+    float: left;
+    font: bold 2.8em serif;
+    margin: 0 .2em 0 0;
+    padding: 0 .2em;
+    line-height:1.4em;
+}
+#mast span  {
+    font-family:serif;
+    }
+#mast hr  {
+    border:0;
+    padding:0;
+    margin:35px auto 25px auto !important;
+    *margin:15px auto !important;
+    color:#FFF;
+    background-color:#FFF;
+    height:0px;
+    width:10em;
+    padding-bottom:1px;
+    border: none;
+    border-bottom:1px solid #000 !important;
+    }
+body > #mast hr  {
+}
+#mast span  {
+    font-size:.85em;
+    }
+span#number  {
+    float:left;
+    color:#FFDD66;
+    }
+span#email  {
+    float:right;
+    }
+#info  {
+    margin:2em 3em !important;
+    margin:2em 2em;
+    width:17em !important;
+    width:16em;
+    float:left;
+    }
+#mast .content {
+    width:25em;
+    float:left;
+    text-align:left;
+    margin:4em 0;
+    }
+.portfolioItem p  {
+    font-weight:bold;
+    margin:0;
+    padding:0;
+}
+#footer  {
+    margin-left:3.0em;
+    clear:left;
+    overflow:hidden;
+    width:48em;
+    margin-top:1.0em;
+    }
+#footer > div  {
+    min-width:15em;
+}   
+#footer p  {
+    text-align:justify;
+    }
+#footer p.subhead  {
+    font-weight:bold;
+    }
+#footer hr  {
+    border:0;
+    width:100%;
+    padding-bottom:2px;
+    border-top:1px solid #CACACA;
+    border-bottom:1px solid #EEE;
+    }
+#stuff li  {
+    padding:15px 0;
+    float:left;
+    width:25em;
+    }
+#leftfoot  {
+    float:left;
+    }
+#leftfoot, #portfolio  {
+    width:27em;
+    }
+#rightfoot  {
+    float:right;
+    width:18em;
+    margin-left:3em;
+    }
+#copyright  {
+    width:100%;
+    clear:left;
+    }
