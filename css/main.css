@@ -229,6 +229,7 @@ span#email  {
     width:25em;
     }
 #leftfoot  {
+    padding-top: 25px;
     float:left;
     }
 #leftfoot, #portfolio  {
